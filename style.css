@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  border: black 2px solid;
+  border-radius: 50px;
+  height: 600px;
+  width: 1000px;
+  font-size: 20px;
+  position: relative;
+  margin: 10px;
+}
+
+.grey-text {
+  color: grey;
+  margin: 0;
+}
+
+.top-text {
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  left: 370px;
+}
+
+.middle-text {
+  position: absolute;
+  top: 225px;
+  left: 300px;
+}
+
+.alt-middle-text {
+  position: absolute;
+  bottom: 240px;
+  left: 540px;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 320px;
+}
